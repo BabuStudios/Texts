@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Words about u</title>
+  <meta name="description" content="A little book, made for you.">
+  <meta name="theme-color" content="#12161c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Words about u">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="book no-anim" id="book" data-state="closed-front"></div>
+  </main>
+
+  <nav class="controls" aria-label="Turn pages">
+    <button id="prev" type="button" aria-label="Previous spread">&larr;</button>
+    <span id="indicator" aria-live="polite"></span>
+    <button id="next" type="button" aria-label="Next spread">&rarr;</button>
+  </nav>
+  <p class="hint">Tap the pages, swipe, or use the arrow keys</p>
+
+  <script src="content.js"></script>
+  <script src="book.js"></script>
+</body>
+</html>
