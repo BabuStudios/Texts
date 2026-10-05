@@ -177,12 +177,7 @@ body {
   stroke-linejoin: round;
   margin-bottom: .3em;
 }
-.page.endpaper {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(228,196,138,.35) 0 4%, transparent 5%),
-    #efd9d4;
-  background-size: 9cqw 9cqw;
-}
+.page.endpaper { background: var(--paper); }
 
 /* ---------- Kontroller ---------- */
 .controls { display: flex; align-items: center; gap: 18px; }
