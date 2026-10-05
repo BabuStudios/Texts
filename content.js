@@ -177,7 +177,7 @@ const BOOK = {
       </div>` },
 
     // One last thing
-    { flow: true, html: `
+    { title: "One last thing", flow: true, html: `
       <div class="letter">
         <p class="date">October 4th, 2026</p>
         <h2>One last thing</h2>
