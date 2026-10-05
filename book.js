@@ -3,6 +3,7 @@
   const stage = document.getElementById("stage");
   const prevBtn = document.getElementById("prev");
   const nextBtn = document.getElementById("next");
+  const homeBtn = document.getElementById("home");
   const indicator = document.getElementById("indicator");
 
   // Typsnitten måste vara laddade innan långa texter mäts upp och delas på sidor
@@ -215,6 +216,7 @@
     bookEl.dataset.state = current === 0 ? "closed-front" : current === last ? "closed-back" : "open";
     prevBtn.disabled = current === 0;
     nextBtn.disabled = current === last;
+    homeBtn.disabled = current === 0;
     indicator.textContent =
       current === 0 ? "Cover" :
       current === last ? "Back cover" :
@@ -243,6 +245,7 @@
 
   prevBtn.addEventListener("click", () => go(-1));
   nextBtn.addEventListener("click", () => go(1));
+  homeBtn.addEventListener("click", () => { current = 0; render(); });
 
   document.addEventListener("keydown", e => {
     if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); go(1); }
