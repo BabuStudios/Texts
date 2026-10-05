@@ -76,7 +76,7 @@ const BOOK = {
     { title: "The long one", flow: true, html: `
       <div class="letter">
         <h2>The long one <span class="subtitle inline">(still applies)</span></h2>
-        <p class="date">March 14, 2026</p>
+        <p class="date">March 14th, 2026</p>
         <p>Hi babu</p>
         <p>I’ve been trying to explain some things that I have on my mind over the phone for our last couple of calls. But for some reason, it seems like I lose my words sometimes when we talk, probably because I love you so damn much.</p>
         <p class="tight">I will try to write it down instead.</p>
@@ -158,17 +158,17 @@ const BOOK = {
         <p class="tight">I have uncertainties about what the next step for me should be. But if there’s something I’m 100000% sure of, it’s how I feel about u and that I will definitely not give up on u or us.</p>
       </div>` },
 
-    // Text 7 – Oct 3th 2026 (ingen titel än)
-    { title: "Oct 3th 2026", flow: true, html: `
+    // Text 7 – September 29th 2026 (ingen titel än)
+    { title: "September 29th, 2026", flow: true, html: `
       <div class="letter">
-        <p class="date">Oct 3th 2026</p>
+        <p class="date">September 29th, 2026</p>
         <p>Bab,</p>
         <p class="tight">I heard this quote a long time ago, I can’t remember where tho but it popped into my head a couple of days ago.</p>
         <p class="tight">It goes:</p>
         <p class="tight">Sometimes the wait is longer because the blessing is bigger.</p>
         <p class="tight">That really feels true.</p>
         <p class="tight">I just want u to know that I am still here babu.</p>
-        <p class="tight">It has been over 8 weeks since we last called but my feelings for u are still the same. I’m still in no rush when it comes to u and I’m not upset with u. I mean yes, I miss u bad haha but it’s okay.</p>
+        <p class="tight">It has almost been 8 weeks since we last called but my feelings for u are still the same. I’m still in no rush when it comes to u and I’m not upset with u. I mean yes, I miss u bad haha but it’s okay.</p>
         <p class="tight">I have worked and learned a lot about my self this year and something’s are very clear to me now.</p>
         <p class="tight">One thing that’s clear is that life is not a sprint, it’s a marathon.</p>
         <p class="tight">Having realized that makes that quote hit a little harder cus yea it’s really true, sometimes the wait is longer cus the blessing is bigger.</p>
@@ -176,10 +176,11 @@ const BOOK = {
         <p class="tight">I’m so incredibly thankful for u, please never forget that</p>
       </div>` },
 
-    // Before u close the book
+    // One last thing
     { flow: true, html: `
       <div class="letter">
-        <h2>Before u close the book</h2>
+        <p class="date">October 4th, 2026</p>
+        <h2>One last thing</h2>
         <p>These are a few of all the words I have written about u bab.</p>
         <p class="tight">This text right here that u are reading rn was not in my notes tho, this is fresh and straight from the heart.</p>
         <p class="tight">I am sorry if I'm overwhelming u with all this but I felt like the texts didn't do much good just sitting in my notes.</p>
