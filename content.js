@@ -127,7 +127,7 @@ const BOOK = {
     { title: "Reasons for why I love u", flow: true, html: `
       <div class="letter list">
         <h2>Reasons for why I love u <span class="subtitle">(some of them, there are much more)</span></h2>
-        <p class="intro">During one of our calls when I was in the PH I promised u that I was gonna make u a list of why I love u. Mainly cus u asked me if it was only cus of ur tits, I started that list the very same night and here are some of it.</p>
+        <p class="intro">During one of our calls when I was in the PH I promised u that I was gonna make u a list of why I love u. Mainly cus u asked me if it was only cus of ur tits, I mean hahah they are freaking amazing but of course there are more to it. I started that list the very same night and here are some of it.</p>
         <p class="reason">The way u smile every time we start a video call</p>
         <p class="reason">The sound of ur laugh</p>
         <p class="reason">Your heart</p>
@@ -178,10 +178,12 @@ const BOOK = {
         <p class="tight">I’m so incredibly thankful for u, please never forget that</p>
       </div>` },
 
-    // 8 – Closing note
-    { html: `
-      <h2>Before you close the book</h2>
-      <p>[A short personal note, if you want one.]</p>` },
+    // Before u close the book
+    { flow: true, html: `
+      <div class="letter">
+        <h2>Before u close the book</h2>
+        <p>These are a few of all the words I have written about u bab. I am sorry if I'm overwhelming u with all this but I felt like the texts didn't do much good just sitting in my notes. And as u know, I am a man of action and effort and u deserve all the action and all the effort in the world. I still care about u and I'm still here for u whenever u need me. Take all the time u need to figure things out. Regardless of how u feel in the end, I'll respect it.</p>
+      </div>` },
 
     // 9 – End
     { folio: false, html: `
