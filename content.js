@@ -32,9 +32,10 @@ const BOOK = {
 
     // 2 – Första sidan
     { html: `
-      <div class="center" style="justify-content:flex-start; padding-top:24cqw">
+      <div class="center first-page" style="justify-content:flex-start; padding-top:12cqw">
         <h1 style="font-size:1.9em; font-style:italic; font-weight:400">Happy Birthday Babu</h1>
-        <p style="max-width:88%; margin-top:2.6em; font-size:.9em; line-height:1.5; opacity:.85">These are texts that I have had in my notes on my phone. Some of them u have seen, some of them u haven't</p>
+        <p style="max-width:88%; margin-top:1.8em; font-size:.9em; line-height:1.5; opacity:.85">These are texts that I have had in my notes on my phone. Some of them u have seen, some of them u haven't seen</p>
+        <p style="max-width:88%; margin-top:.4em; font-size:.9em; line-height:1.5; opacity:.85">And yes I know, this is whole thing is prolly a little cringe.. but u know me<br>idgaf<br>hahah I wanted to something for u on ur bday so here u go bab</p>
         <div class="mini-flags"><svg viewBox="0 0 200 100" aria-label="Philippines"><rect width="200" height="50" fill="#0038A8"/><rect y="50" width="200" height="50" fill="#CE1126"/><polygon points="0,0 86.6,50 0,100" fill="#fff"/><g fill="#FCD116"><circle cx="29" cy="50" r="7.5"/><polygon points="37.8,48.0 46.0,50.0 37.8,52.0"/><polygon points="36.6,54.8 41.0,62.0 33.8,57.6"/><polygon points="31.0,58.8 29.0,67.0 27.0,58.8"/><polygon points="24.2,57.6 17.0,62.0 21.4,54.8"/><polygon points="20.2,52.0 12.0,50.0 20.2,48.0"/><polygon points="21.4,45.2 17.0,38.0 24.2,42.4"/><polygon points="27.0,41.2 29.0,33.0 31.0,41.2"/><polygon points="33.8,42.4 41.0,38.0 36.6,45.2"/><polygon points="8.0,4.5 9.0,7.6 12.3,7.6 9.6,9.5 10.6,12.6 8.0,10.7 5.4,12.6 6.4,9.5 3.7,7.6 7.0,7.6"/><polygon points="8.0,86.5 9.0,89.6 12.3,89.6 9.6,91.5 10.6,94.6 8.0,92.7 5.4,94.6 6.4,91.5 3.7,89.6 7.0,89.6"/><polygon points="75.0,45.5 76.0,48.6 79.3,48.6 76.6,50.5 77.6,53.6 75.0,51.7 72.4,53.6 73.4,50.5 70.7,48.6 74.0,48.6"/></g></svg><svg viewBox="0 0 160 100" aria-label="Sweden"><rect width="160" height="100" fill="#006AA7"/><rect x="50" width="20" height="100" fill="#FECC02"/><rect y="40" width="160" height="20" fill="#FECC02"/></svg></div>
       </div>` },
 
