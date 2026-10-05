@@ -26,7 +26,7 @@
     bookEl.append(probe);
     const inner = probe.querySelector(".page-inner");
     const cs = getComputedStyle(inner);
-    const maxH = (inner.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom)) * 0.97;
+    const maxH = (inner.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom)) * 0.9; // marginal för att telefoner ritar text lite olika
 
     const out = [];
     for (const page of list) {
@@ -177,8 +177,26 @@
     document.querySelector(".hint").textContent = mode === "single"
       ? "Tap or swipe to turn the page"
       : "Tap the pages, swipe, or use the arrow keys";
+    fitPages();
     render();
     requestAnimationFrame(() => requestAnimationFrame(() => bookEl.classList.remove("no-anim")));
+  }
+
+  // Säkerhetsnät: om texten ändå inte ryms på en sida (t.ex. för att telefonen
+  // ritar typsnittet lite bredare) krymps texten på just den sidan tills den får plats.
+  function fitPages() {
+    bookEl.querySelectorAll(".page-inner").forEach(inner => {
+      const content = inner.firstElementChild;
+      if (!content || !inner.clientHeight) return; // dolda blad kan inte mätas
+      inner.style.fontSize = "";
+      const cs = getComputedStyle(inner);
+      const avail = inner.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+      let scale = 1;
+      while (content.scrollHeight > avail + 1 && scale > 0.7) {
+        scale -= 0.03;
+        inner.style.fontSize = `calc(var(--pw) * ${(5.1 * scale).toFixed(3)} / 100)`;
+      }
+    });
   }
 
   function makeLeaf(front, back) {
@@ -210,6 +228,13 @@
       const flipped = i < current;
       leaf.classList.toggle("flipped", flipped);
       leaf.style.zIndex = flipped ? i + 1 : n - i;
+      // Rita bara bladen runt det som syns – sparar mycket minne på mobilen
+      const near = i >= current - 2 && i <= current + 1;
+      if (near) { clearTimeout(leaf._hide); leaf.style.display = ""; }
+      else if (leaf.style.display !== "none") {
+        clearTimeout(leaf._hide);
+        leaf._hide = setTimeout(() => { leaf.style.display = "none"; }, TURN_MS);
+      }
     });
     const last = maxCurrent();
     bookEl.dataset.state = current === 0 ? "closed-front" : current === last ? "closed-back" : "open";
@@ -272,6 +297,7 @@
     resizeTimer = setTimeout(() => {
       const next = applySize();
       if (next !== mode) { mode = next; build(); }
+      else fitPages();
     }, 120);
   }
   window.addEventListener("resize", onResize);
