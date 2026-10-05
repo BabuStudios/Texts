@@ -247,3 +247,4 @@ body {
 .page.cover .small { font-variant-numeric: lining-nums; }
 .page-inner .letter .subtitle.inline { display: inline; margin-left: .3em; font-size: .6em; opacity: 1; }
 .page-inner .letter > .date:first-child { margin-top: 0; }
+.page.cover .cover-bear { width: 13cqw; height: auto; margin-top: 1.2em; }

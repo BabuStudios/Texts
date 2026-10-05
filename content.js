@@ -15,6 +15,8 @@ const HER_NAME = "Babu";
 
 const HEART = `<svg class="heart" viewBox="0 0 40 36" aria-hidden="true"><path d="M20 33 C9 25 3 19 3 11.5 C3 6.5 7 3 11.5 3 C15 3 18 5 20 8.5 C22 5 25 3 28.5 3 C33 3 37 6.5 37 11.5 C37 19 31 25 20 33 Z"/></svg>`;
 
+const COVER_BEAR = `<svg class="cover-bear" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 52 60"><g style="fill:var(--gold)"><circle cx="13" cy="9" r="6.5"/><circle cx="39" cy="9" r="6.5"/><ellipse cx="26" cy="19" rx="15" ry="13.5"/><ellipse cx="9" cy="38" rx="5.5" ry="8" transform="rotate(25 9 38)"/><ellipse cx="43" cy="38" rx="5.5" ry="8" transform="rotate(-25 43 38)"/><ellipse cx="26" cy="42" rx="13" ry="14"/><ellipse cx="14" cy="53" rx="7.5" ry="6"/><ellipse cx="38" cy="53" rx="7.5" ry="6"/></g><g style="fill:var(--cloth)"><circle cx="13" cy="9" r="2.8"/><circle cx="39" cy="9" r="2.8"/><ellipse cx="26" cy="24.4" rx="6.6" ry="5.2"/><circle cx="20" cy="16.5" r="1.5"/><circle cx="32" cy="16.5" r="1.5"/><path d="M14 56.2 C10.6 53.6 10.8 50.8 12.6 50.6 C13.4 50.5 14 51.2 14 51.8 C14 51.2 14.6 50.5 15.4 50.6 C17.2 50.8 17.4 53.6 14 56.2Z"/></g><ellipse cx="26" cy="22.6" rx="2.6" ry="1.9" style="fill:var(--gold)"/><path d="M26 24.2 V25.6 M22.6 25.3 Q24.3 27.8 26 25.6 Q27.7 27.8 29.4 25.3" fill="none" style="stroke:var(--gold)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><g><path style="fill:var(--cloth)" d="M25.3 33.6 C24.2 36.6 21.8 38.6 20.4 42.6 L22.3 41.5 L23.3 43.4 C24.2 39.6 26.2 37 27 34 Z"/><path style="fill:var(--cloth)" d="M26.7 33.6 C27.8 36.6 30.2 38.6 31.6 42.6 L29.7 41.5 L28.7 43.4 C27.8 39.6 25.8 37 25 34 Z"/><path style="fill:var(--cloth)" d="M26 32.8 C22.6 28.4 16.8 27.6 16.9 31.4 C17 35 22.4 35.2 26 32.8 Z"/><path style="fill:var(--cloth)" d="M26 32.8 C29.4 28.4 35.2 27.6 35.1 31.4 C35 35 29.6 35.2 26 32.8 Z"/><path style="fill:var(--gold)" d="M24 32.4 C21.6 30.4 18.8 30 18.9 31.6 C19 33.2 21.6 33.3 24 32.4 Z"/><path style="fill:var(--gold)" d="M28 32.4 C30.4 30.4 33.2 30 33.1 31.6 C33 33.2 30.4 33.3 28 32.4 Z"/><ellipse style="fill:var(--cloth);stroke:var(--gold)" cx="26" cy="32.9" rx="2" ry="2.2" stroke-width=".8"/></g></svg>`;
+
 const BOOK = {
   pages: [
     // 0 – Front cover
@@ -22,6 +24,7 @@ const BOOK = {
       <div class="center">
         <h1>Words about u</h1>
         <p class="small">Volume 1</p>
+        ${COVER_BEAR}
       </div>` },
 
     // 1 – Inside front cover
@@ -183,7 +186,7 @@ const BOOK = {
     // 9 – End
     { folio: false, html: `
       <div class="center">
-        <div style="font-size:1.6em">❦</div>
+        <img src="babu-bear.svg" alt="" style="width:16cqw; height:auto; margin-bottom:.4em">
         <p><em>Happy birthday, ${HER_NAME}.</em></p>
       </div>` },
 

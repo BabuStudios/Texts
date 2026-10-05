@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60">
+ <g fill="#2b2620">
+  <!-- ears -->
+  <circle cx="13" cy="9" r="6.5"/><circle cx="39" cy="9" r="6.5"/>
+  <!-- head -->
+  <ellipse cx="26" cy="19" rx="15" ry="13.5"/>
+  <!-- arms -->
+  <ellipse cx="9" cy="38" rx="5.5" ry="8" transform="rotate(25 9 38)"/>
+  <ellipse cx="43" cy="38" rx="5.5" ry="8" transform="rotate(-25 43 38)"/>
+  <!-- body -->
+  <ellipse cx="26" cy="42" rx="13" ry="14"/>
+  <!-- feet -->
+  <ellipse cx="14" cy="53" rx="7.5" ry="6"/><ellipse cx="38" cy="53" rx="7.5" ry="6"/>
+ </g>
+ <g fill="#f6f0e1">
+  <circle cx="13" cy="9" r="2.8"/><circle cx="39" cy="9" r="2.8"/>
+  <ellipse cx="26" cy="24.4" rx="6.6" ry="5.2"/>
+  <circle cx="20" cy="16.5" r="1.5"/><circle cx="32" cy="16.5" r="1.5"/>
+  <!-- heart on foot -->
+  <path d="M14 56.2 C10.6 53.6 10.8 50.8 12.6 50.6 C13.4 50.5 14 51.2 14 51.8 C14 51.2 14.6 50.5 15.4 50.6 C17.2 50.8 17.4 53.6 14 56.2Z"/>
+ </g>
+ <ellipse cx="26" cy="22.6" rx="2.6" ry="1.9" fill="#2b2620"/>
+ <path d="M26 24.2 V25.6 M22.6 25.3 Q24.3 27.8 26 25.6 Q27.7 27.8 29.4 25.3" fill="none" stroke="#2b2620" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="bow">
+  <path fill="#f6f0e1" d="M25.3 33.6 C24.2 36.6 21.8 38.6 20.4 42.6 L22.3 41.5 L23.3 43.4 C24.2 39.6 26.2 37 27 34 Z"/>
+  <path fill="#f6f0e1" d="M26.7 33.6 C27.8 36.6 30.2 38.6 31.6 42.6 L29.7 41.5 L28.7 43.4 C27.8 39.6 25.8 37 25 34 Z"/>
+  <path fill="#f6f0e1" d="M26 32.8 C22.6 28.4 16.8 27.6 16.9 31.4 C17 35 22.4 35.2 26 32.8 Z"/>
+  <path fill="#f6f0e1" d="M26 32.8 C29.4 28.4 35.2 27.6 35.1 31.4 C35 35 29.6 35.2 26 32.8 Z"/>
+  <path fill="#2b2620" d="M24 32.4 C21.6 30.4 18.8 30 18.9 31.6 C19 33.2 21.6 33.3 24 32.4 Z"/>
+  <path fill="#2b2620" d="M28 32.4 C30.4 30.4 33.2 30 33.1 31.6 C33 33.2 30.4 33.3 28 32.4 Z"/>
+  <ellipse cx="26" cy="32.9" rx="2" ry="2.2" fill="#f6f0e1" stroke="#2b2620" stroke-width=".8"/>
+ </g>
+</svg>
