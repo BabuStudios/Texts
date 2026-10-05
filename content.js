@@ -63,10 +63,10 @@ const BOOK = {
         <p>But fuck, I’m scared to let you go.</p>
       </div>` },
 
-    // Before your exam
-    { title: "Before your exam", html: `
+    // Before ur exam
+    { title: "Before ur exam", html: `
       <div class="letter">
-        <h2>Before your exam</h2>
+        <h2>Before ur exam <span class="subtitle">I texted u this on the day u had ur exam (yes I wrote the whole thing in my notes before sending to u)</span></h2>
         <p>Hi babu</p>
         <p>I’m going to bed now but I just wanted to remind u of how incredible and capable u are. I will be thinking about you and I’m cheering for u loudly from across the world! I know you’re nervous, but that just shows how much u care. U have put in the work, u have prepared and I’m really proud of u. Try to breathe and take it one question at a time. Do your best babe, your best is freaking amazing!</p>
         <p>Good luck babu, you got this!</p>
@@ -118,9 +118,7 @@ const BOOK = {
         <p class="tight">I know that you’ve said a bunch of times that you can’t promise me that we will meet. And I know that I’ve said that I’m okay with that, which is still true. I will still love you and I will still fight for you even if we don’t see each other. But I just want you to know that the biggest reason for why I am going to the ph, and even your city, is because I really wanna prove to you that everything I’ve been saying about how I feel and that I really wanna fight for you are more than just words. It’s really how I feel. I felt like I needed to do something to really prove that. And I also know that you would never ask me to come see you even if you wanted to.</p>
         <p>Regardless if we see each other or not, I am gonna have a great time.</p>
         <p class="tight">But my biggest dream right now is to actually see you in real life.</p>
-        <div class="keep-with-prev">
-          <p class="signoff">I love you more than you know babu.</p>
-        </div>
+        <p class="tight">I love you more than you know babu.</p>
       </div>` },
 
     // Reasons for why I love u
@@ -182,7 +180,15 @@ const BOOK = {
     { flow: true, html: `
       <div class="letter">
         <h2>Before u close the book</h2>
-        <p>These are a few of all the words I have written about u bab. I am sorry if I'm overwhelming u with all this but I felt like the texts didn't do much good just sitting in my notes. And as u know, I am a man of action and effort and u deserve all the action and all the effort in the world. I still care about u and I'm still here for u whenever u need me. Take all the time u need to figure things out. Regardless of how u feel in the end, I'll respect it.</p>
+        <p>These are a few of all the words I have written about u bab.</p>
+        <p class="tight">This text right here that u are reading rn was not in my notes tho, this is fresh and straight from the heart.</p>
+        <p class="tight">I am sorry if I'm overwhelming u with all this but I felt like the texts didn't do much good just sitting in my notes.</p>
+        <p class="tight">And as u know, I am a man of action and effort and u deserve all the action and all the effort in the world. I still care about u and I'm still here for u whenever u need me.</p>
+        <p class="tight">I'm also sorry for giving u a little attitude earlier. I was just a little confused by everything but I understand now.</p>
+        <p class="tight">Take all the time u need to figure things out. Regardless of how u feel in the end, I'll respect it.</p>
+        <p>And now to something I haven't said in a long time, yes I've said it in some of the texts but some of them are kinda old by now.</p>
+        <p class="tight">But yea,</p>
+        <p>I still love u</p>
       </div>` },
 
     // 9 – End

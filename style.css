@@ -245,3 +245,4 @@ body {
 .page.cover .cover-bear { width: 13cqw; height: auto; margin-top: 1.2em; }
 .page-inner .first-page p { text-indent: 0; }
 .page-inner .first-page .mini-flags { margin-top: 1.4em; }
+.page-inner .letter .subtitle { line-height: 1.4; }
