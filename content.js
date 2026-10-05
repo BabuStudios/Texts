@@ -35,7 +35,7 @@ const BOOK = {
       <div class="center first-page" style="justify-content:flex-start; padding-top:12cqw">
         <h1 style="font-size:1.9em; font-style:italic; font-weight:400">Happy Birthday Babu</h1>
         <p style="max-width:88%; margin-top:1.8em; font-size:.9em; line-height:1.5; opacity:.85">These are texts that I have had in my notes on my phone. Some of them u have seen, some of them u haven't seen</p>
-        <p style="max-width:88%; margin-top:.4em; font-size:.9em; line-height:1.5; opacity:.85">And yes I know, this is whole thing is prolly a little cringe.. but u know me<br>idgaf<br>I wanted to do something for u on ur bday so here u go bab</p>
+        <p style="max-width:88%; margin-top:.4em; font-size:.9em; line-height:1.5; opacity:.85">And yes, I know this whole thing is prolly a little cringe.. haha but u know me by now<br>I wanted to do something for u on ur bday so here u go bab</p>
       </div>` },
 
     // Innehållsförteckning – fylls i automatiskt med alla sidor som har "title"
